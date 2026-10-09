@@ -1,0 +1,348 @@
+[
+  {
+    "faq_id": "FAQ0199",
+    "source": "faq",
+    "title": "Can I combine discount codes?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Can I combine discount codes?",
+    "answer": "Only one promo code can typically be applied per order, unless a promotion specifically allows stacking.",
+    "tags": [
+      "promotion",
+      "discount",
+      "combine discount codes",
+      "stacking promos"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-09-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0200",
+    "source": "faq",
+    "title": "How do promo codes work?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "How do promo codes work?",
+    "answer": "Enter your promo code at checkout in the designated field, and the discount will apply before payment.",
+    "tags": [
+      "promotion",
+      "discount",
+      "how promo codes work"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-03-06T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0201",
+    "source": "faq",
+    "title": "When is the next sale?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "When is the next sale?",
+    "answer": "Sales are announced through email newsletters and our promotions page; sign up to stay updated.",
+    "tags": [
+      "promotion",
+      "discount",
+      "next sale date"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-12-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0202",
+    "source": "faq",
+    "title": "Why isn't my promo code working?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Why isn't my promo code working?",
+    "answer": "Check the code's expiration date, minimum purchase requirement, and eligible product categories for restrictions.",
+    "tags": [
+      "promotion",
+      "discount",
+      "promo code not working"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0203",
+    "source": "faq",
+    "title": "Can I use a promo code on already discounted items?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Can I use a promo code on already discounted items?",
+    "answer": "Some promo codes exclude sale items; check the specific terms and conditions of each code.",
+    "tags": [
+      "promotion",
+      "discount",
+      "promo code on sale items"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-04-24T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0204",
+    "source": "faq",
+    "title": "Do promo codes apply to shipping costs?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Do promo codes apply to shipping costs?",
+    "answer": "Most promo codes apply to product price only, not shipping fees, unless stated otherwise.",
+    "tags": [
+      "promotion",
+      "discount",
+      "promo code shipping"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-02-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0205",
+    "source": "faq",
+    "title": "How long are promo codes valid?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "How long are promo codes valid?",
+    "answer": "Validity varies by promotion; expiration dates are listed in the promotional email or terms and conditions.",
+    "tags": [
+      "promotion",
+      "discount",
+      "promo code validity"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-12-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0206",
+    "source": "faq",
+    "title": "Can I apply a promo code after placing my order?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Can I apply a promo code after placing my order?",
+    "answer": "Promo codes must be applied at checkout and cannot be added retroactively after order confirmation.",
+    "tags": [
+      "promotion",
+      "discount",
+      "retroactive promo code"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-01-06T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0207",
+    "source": "faq",
+    "title": "Do students get a discount?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Do students get a discount?",
+    "answer": "Yes, verified students receive a 10% discount through our student verification partner.",
+    "tags": [
+      "promotion",
+      "discount",
+      "student discount"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0208",
+    "source": "faq",
+    "title": "Are military discounts available?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Are military discounts available?",
+    "answer": "Yes, verified military members and veterans receive a 10% discount on eligible purchases.",
+    "tags": [
+      "promotion",
+      "discount",
+      "military discount"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-07-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0209",
+    "source": "faq",
+    "title": "How do I sign up for promotional emails?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "How do I sign up for promotional emails?",
+    "answer": "You can subscribe to promotional emails during checkout or through your account communication preferences.",
+    "tags": [
+      "promotion",
+      "discount",
+      "sign up promotional emails"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-05T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0210",
+    "source": "faq",
+    "title": "Can I get a price adjustment if an item goes on sale after I buy it?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Can I get a price adjustment if an item goes on sale after I buy it?",
+    "answer": "Price adjustments are honored within 7 days of purchase for items that go on sale.",
+    "tags": [
+      "promotion",
+      "discount",
+      "price adjustment"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0211",
+    "source": "faq",
+    "title": "Are there exclusive promotions for app users?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Are there exclusive promotions for app users?",
+    "answer": "Yes, the mobile app occasionally features app-only flash sales and early access promotions.",
+    "tags": [
+      "promotion",
+      "discount",
+      "app exclusive promotions"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-06-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0212",
+    "source": "faq",
+    "title": "Do first-time customers get a discount?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Do first-time customers get a discount?",
+    "answer": "Yes, new customers can receive 10% off their first order by signing up for our newsletter.",
+    "tags": [
+      "promotion",
+      "discount",
+      "first-time customer discount"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0213",
+    "source": "faq",
+    "title": "Can promo codes be used on gift card purchases?",
+    "category": "Promotions",
+    "intent": "promotions",
+    "question": "Can promo codes be used on gift card purchases?",
+    "answer": "Promo codes generally cannot be applied to gift card purchases.",
+    "tags": [
+      "promotion",
+      "discount",
+      "promo code gift cards"
+    ],
+    "related_documents": [
+      "promotions_terms.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-01-14T00:00:00Z"
+  }
+]

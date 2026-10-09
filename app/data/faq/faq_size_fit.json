@@ -1,0 +1,578 @@
+[
+  {
+    "faq_id": "FAQ0119",
+    "source": "faq",
+    "title": "How do I choose the right size?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "How do I choose the right size?",
+    "answer": "Use our size guide chart to convert your foot length measurement to the correct US, UK, or EU size for each brand.",
+    "tags": [
+      "size",
+      "fit",
+      "choose size",
+      "size guide"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-10-04T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0120",
+    "source": "faq",
+    "title": "Are Adidas shoes true to size?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Are Adidas shoes true to size?",
+    "answer": "Most Adidas shoes run true to size, though some Originals styles like Samba fit slightly narrow.",
+    "tags": [
+      "size",
+      "fit",
+      "adidas sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-05-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0121",
+    "source": "faq",
+    "title": "What if my shoes don't fit?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What if my shoes don't fit?",
+    "answer": "You can exchange for a different size within 30 days of delivery through the Returns Center.",
+    "tags": [
+      "size",
+      "fit",
+      "shoes don't fit"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-26T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0122",
+    "source": "faq",
+    "title": "What's the difference between regular and wide fit?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What's the difference between regular and wide fit?",
+    "answer": "Wide fit shoes have extra room across the forefoot and toe box compared to standard width options.",
+    "tags": [
+      "size",
+      "fit",
+      "regular vs wide fit"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-10-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0123",
+    "source": "faq",
+    "title": "How do I measure my foot size at home?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "How do I measure my foot size at home?",
+    "answer": "Trace your foot on paper, measure the longest point in centimeters, and compare it to our size chart.",
+    "tags": [
+      "size",
+      "fit",
+      "measure foot size"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-05-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0124",
+    "source": "faq",
+    "title": "Do Nike shoes run large or small?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Do Nike shoes run large or small?",
+    "answer": "Nike shoes generally run true to size, though some models like Air Force 1 are known to run slightly large.",
+    "tags": [
+      "size",
+      "fit",
+      "nike sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0125",
+    "source": "faq",
+    "title": "Should I size up for thick socks?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Should I size up for thick socks?",
+    "answer": "If you plan to wear thick socks regularly, consider sizing up half a size for a more comfortable fit.",
+    "tags": [
+      "size",
+      "fit",
+      "sizing for socks"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-08-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0126",
+    "source": "faq",
+    "title": "Are kids' shoe sizes the same as adult sizes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Are kids' shoe sizes the same as adult sizes?",
+    "answer": "No, kids' sizing uses a separate scale; refer to our youth size chart for accurate conversions.",
+    "tags": [
+      "size",
+      "fit",
+      "kids shoe sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-07T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0127",
+    "source": "faq",
+    "title": "What if I'm between two sizes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What if I'm between two sizes?",
+    "answer": "We generally recommend sizing up if you're between sizes, especially for running shoes.",
+    "tags": [
+      "size",
+      "fit",
+      "between sizes"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-06-10T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0128",
+    "source": "faq",
+    "title": "Do all shoe styles fit the same within a brand?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Do all shoe styles fit the same within a brand?",
+    "answer": "No, fit can vary by model even within the same brand, so always check the specific size guide for that shoe.",
+    "tags": [
+      "size",
+      "fit",
+      "fit varies by model"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-07-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0129",
+    "source": "faq",
+    "title": "How much room should be at the toe for running shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "How much room should be at the toe for running shoes?",
+    "answer": "A thumb's width of space between your longest toe and the shoe's end is generally recommended for running shoes.",
+    "tags": [
+      "size",
+      "fit",
+      "toe box room"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-26T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0130",
+    "source": "faq",
+    "title": "Can I exchange for a different width, not just size?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Can I exchange for a different width, not just size?",
+    "answer": "Yes, width exchanges are treated the same as size exchanges and are subject to availability.",
+    "tags": [
+      "size",
+      "fit",
+      "width exchange"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-11-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0131",
+    "source": "faq",
+    "title": "Do socks affect how I should size shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Do socks affect how I should size shoes?",
+    "answer": "Yes, if you typically wear thin socks, your regular size should work; thicker socks may require sizing up.",
+    "tags": [
+      "size",
+      "fit",
+      "socks affect sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-06-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0132",
+    "source": "faq",
+    "title": "What is the size difference between men's and women's shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What is the size difference between men's and women's shoes?",
+    "answer": "Women's sizing is typically about 1.5 sizes smaller than the equivalent men's size for the same shoe length.",
+    "tags": [
+      "size",
+      "fit",
+      "men's vs women's sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-09-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0133",
+    "source": "faq",
+    "title": "How do I convert EU sizes to US sizes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "How do I convert EU sizes to US sizes?",
+    "answer": "Our size chart provides direct EU to US conversions; generally subtract 33 from the EU size for an approximate US men's size.",
+    "tags": [
+      "size",
+      "fit",
+      "eu to us size conversion"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-10-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0134",
+    "source": "faq",
+    "title": "Are running shoes sized differently than casual shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Are running shoes sized differently than casual shoes?",
+    "answer": "Running shoes from the same brand generally follow the same sizing scale as casual shoes unless otherwise noted.",
+    "tags": [
+      "size",
+      "fit",
+      "running vs casual sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-02-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0135",
+    "source": "faq",
+    "title": "What if the shoe fits well but feels tight at the toe box?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What if the shoe fits well but feels tight at the toe box?",
+    "answer": "Consider sizing up half a size or choosing a wide-fit option if available for that model.",
+    "tags": [
+      "size",
+      "fit",
+      "tight toe box"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-04-05T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0136",
+    "source": "faq",
+    "title": "Do narrow width options exist for all shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Do narrow width options exist for all shoes?",
+    "answer": "Narrow width is only available for select models, primarily in running and dress-casual categories.",
+    "tags": [
+      "size",
+      "fit",
+      "narrow width availability"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-11-07T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0137",
+    "source": "faq",
+    "title": "How can I tell if a shoe fits correctly?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "How can I tell if a shoe fits correctly?",
+    "answer": "A properly fitting shoe has secure heel hold, a snug midfoot, and about a thumb's width of space at the toe.",
+    "tags": [
+      "size",
+      "fit",
+      "correct shoe fit"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0138",
+    "source": "faq",
+    "title": "Does shoe fit change after breaking them in?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Does shoe fit change after breaking them in?",
+    "answer": "Some materials like leather and knit will stretch slightly with wear, but overall size shouldn't change significantly.",
+    "tags": [
+      "size",
+      "fit",
+      "breaking in shoes"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-06-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0139",
+    "source": "faq",
+    "title": "Are high-top sneakers sized the same as low-tops?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Are high-top sneakers sized the same as low-tops?",
+    "answer": "Yes, high-top and low-top versions of the same model typically follow identical sizing.",
+    "tags": [
+      "size",
+      "fit",
+      "high-top vs low-top sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0140",
+    "source": "faq",
+    "title": "What if my left and right feet are different sizes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What if my left and right feet are different sizes?",
+    "answer": "We recommend sizing for your larger foot and using insoles to adjust fit on the smaller foot.",
+    "tags": [
+      "size",
+      "fit",
+      "different sized feet"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-21T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0141",
+    "source": "faq",
+    "title": "Can I request half sizes for kids' shoes?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Can I request half sizes for kids' shoes?",
+    "answer": "Half sizes are available for most youth shoes starting around size 3.5.",
+    "tags": [
+      "size",
+      "fit",
+      "kids half sizes"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0142",
+    "source": "faq",
+    "title": "Do soccer cleats fit differently than regular sneakers?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "Do soccer cleats fit differently than regular sneakers?",
+    "answer": "Cleats often fit more snugly by design to prevent slipping during play, so consider your usual size as a starting point.",
+    "tags": [
+      "size",
+      "fit",
+      "cleat sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-01-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0143",
+    "source": "faq",
+    "title": "What's the best way to find true-to-size fit for a new brand?",
+    "category": "Size & Fit",
+    "intent": "size_fit",
+    "question": "What's the best way to find true-to-size fit for a new brand?",
+    "answer": "Check verified customer reviews and the model-specific size guide, since fit can vary significantly between brands.",
+    "tags": [
+      "size",
+      "fit",
+      "new brand sizing"
+    ],
+    "related_documents": [
+      "size_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-01-04T00:00:00Z"
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "faq_id": "FAQ0074",
+    "source": "faq",
+    "title": "Which payment methods are accepted?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Which payment methods are accepted?",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, and Google Pay.",
+    "tags": [
+      "payment",
+      "billing",
+      "payment methods",
+      "accepted cards"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-07-07T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0075",
+    "source": "faq",
+    "title": "Can I pay using PayPal?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I pay using PayPal?",
+    "answer": "Yes, PayPal is available as a payment option at checkout.",
+    "tags": [
+      "payment",
+      "billing",
+      "paypal"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-07-09T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0076",
+    "source": "faq",
+    "title": "Do you accept Apple Pay?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Do you accept Apple Pay?",
+    "answer": "Yes, Apple Pay is supported on compatible devices at checkout.",
+    "tags": [
+      "payment",
+      "billing",
+      "apple pay"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-03-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0077",
+    "source": "faq",
+    "title": "Can I pay in installments?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I pay in installments?",
+    "answer": "Yes, installment payments are available through our partnership with Klarna and Afterpay at checkout.",
+    "tags": [
+      "payment",
+      "billing",
+      "installments",
+      "klarna",
+      "afterpay"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0078",
+    "source": "faq",
+    "title": "Why was my payment declined?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Why was my payment declined?",
+    "answer": "Declines commonly result from incorrect card details, insufficient funds, or your bank flagging the transaction.",
+    "tags": [
+      "payment",
+      "billing",
+      "payment declined",
+      "card declined"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-12-31T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0079",
+    "source": "faq",
+    "title": "Is it safe to enter my card details on your site?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Is it safe to enter my card details on your site?",
+    "answer": "Yes, all payment data is encrypted and processed through PCI-compliant payment gateways.",
+    "tags": [
+      "payment",
+      "billing",
+      "payment security",
+      "pci compliance"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-09-21T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0080",
+    "source": "faq",
+    "title": "Can I use a gift card and a credit card for the same order?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I use a gift card and a credit card for the same order?",
+    "answer": "Yes, gift card balances are applied first, with any remaining balance charged to your card.",
+    "tags": [
+      "payment",
+      "billing",
+      "gift card payment",
+      "split tender"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-07-24T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0081",
+    "source": "faq",
+    "title": "Do you accept cryptocurrency?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Do you accept cryptocurrency?",
+    "answer": "We currently do not accept cryptocurrency as a payment method.",
+    "tags": [
+      "payment",
+      "billing",
+      "cryptocurrency",
+      "bitcoin"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-01-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0082",
+    "source": "faq",
+    "title": "Will I be charged sales tax?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Will I be charged sales tax?",
+    "answer": "Sales tax is calculated based on your shipping address and applicable state or local tax laws.",
+    "tags": [
+      "payment",
+      "billing",
+      "sales tax"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-09-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0083",
+    "source": "faq",
+    "title": "Can I save my payment information for future orders?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I save my payment information for future orders?",
+    "answer": "Yes, you can securely save payment methods to your account for faster checkout.",
+    "tags": [
+      "payment",
+      "billing",
+      "save card",
+      "saved payment"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-02-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0084",
+    "source": "faq",
+    "title": "What currency are prices displayed in?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "What currency are prices displayed in?",
+    "answer": "Prices are displayed in USD by default, with local currency conversion available for select countries.",
+    "tags": [
+      "payment",
+      "billing",
+      "currency",
+      "usd"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-12-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0085",
+    "source": "faq",
+    "title": "When is my card actually charged?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "When is my card actually charged?",
+    "answer": "Your card is charged at the time of order placement, not at shipment.",
+    "tags": [
+      "payment",
+      "billing",
+      "charge timing"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-31T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0086",
+    "source": "faq",
+    "title": "Can I use multiple promo codes on one order?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I use multiple promo codes on one order?",
+    "answer": "Only one promo code can be applied per order unless otherwise stated in the promotion terms.",
+    "tags": [
+      "payment",
+      "billing",
+      "multiple promo codes"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0087",
+    "source": "faq",
+    "title": "Why do I see a pending charge before my order ships?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Why do I see a pending charge before my order ships?",
+    "answer": "This is an authorization hold to confirm funds availability; it will finalize once your order ships.",
+    "tags": [
+      "payment",
+      "billing",
+      "pending charge",
+      "authorization hold"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-09-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0088",
+    "source": "faq",
+    "title": "Can I pay with a check or bank transfer?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I pay with a check or bank transfer?",
+    "answer": "Online orders only accept digital payment methods; checks and bank transfers aren't supported.",
+    "tags": [
+      "payment",
+      "billing",
+      "bank transfer",
+      "check payment"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-10-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0089",
+    "source": "faq",
+    "title": "What should I do if I was double charged?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "What should I do if I was double charged?",
+    "answer": "Contact support with your order number; duplicate charges are typically refunded within 3–5 business days after verification.",
+    "tags": [
+      "payment",
+      "billing",
+      "double charge",
+      "duplicate charge"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-09-21T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0090",
+    "source": "faq",
+    "title": "Do you accept international credit cards?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Do you accept international credit cards?",
+    "answer": "Yes, international cards are accepted as long as they support online transactions.",
+    "tags": [
+      "payment",
+      "billing",
+      "international card"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0091",
+    "source": "faq",
+    "title": "Can I change my payment method after placing an order?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Can I change my payment method after placing an order?",
+    "answer": "Payment methods cannot be changed after an order is placed; you'd need to cancel and reorder.",
+    "tags": [
+      "payment",
+      "billing",
+      "change payment method"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-09-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0092",
+    "source": "faq",
+    "title": "Is there a minimum order amount for installment payments?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Is there a minimum order amount for installment payments?",
+    "answer": "Installment options typically require a minimum order value, usually around $35.",
+    "tags": [
+      "payment",
+      "billing",
+      "installment minimum"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-06-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0093",
+    "source": "faq",
+    "title": "Why does my billing address need to match my card?",
+    "category": "Payments",
+    "intent": "payments",
+    "question": "Why does my billing address need to match my card?",
+    "answer": "Address verification helps prevent fraud and ensures your payment processes successfully.",
+    "tags": [
+      "payment",
+      "billing",
+      "billing address verification"
+    ],
+    "related_documents": [
+      "payment_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-05-10T00:00:00Z"
+  }
+]

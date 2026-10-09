@@ -1,0 +1,482 @@
+[
+  {
+    "faq_id": "FAQ0214",
+    "source": "faq",
+    "title": "How do I reset my password?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I reset my password?",
+    "answer": "Click \"Forgot Password\" on the login page and follow the emailed instructions to reset it securely.",
+    "tags": [
+      "account",
+      "login",
+      "reset password"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-10-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0215",
+    "source": "faq",
+    "title": "How do I delete my account?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I delete my account?",
+    "answer": "Account deletion requests can be submitted through account settings or by contacting customer support.",
+    "tags": [
+      "account",
+      "login",
+      "delete account"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0216",
+    "source": "faq",
+    "title": "How do I update my email?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I update my email?",
+    "answer": "Update your email address in the Account Details section under your profile settings.",
+    "tags": [
+      "account",
+      "login",
+      "update email"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-08-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0217",
+    "source": "faq",
+    "title": "How do I update my shipping address?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I update my shipping address?",
+    "answer": "Saved addresses can be edited or added in the Address Book section of your account.",
+    "tags": [
+      "account",
+      "login",
+      "update shipping address"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-03-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0218",
+    "source": "faq",
+    "title": "Why can't I log into my account?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Why can't I log into my account?",
+    "answer": "Double-check your email and password, or use the password reset option if you've forgotten your credentials.",
+    "tags": [
+      "account",
+      "login",
+      "login issues"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-07-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0219",
+    "source": "faq",
+    "title": "Can I have more than one account?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Can I have more than one account?",
+    "answer": "We recommend maintaining a single account to keep your order history and rewards points consolidated.",
+    "tags": [
+      "account",
+      "login",
+      "multiple accounts"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-01-31T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0220",
+    "source": "faq",
+    "title": "How do I change my account password?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I change my account password?",
+    "answer": "Go to Account Settings, select \"Change Password,\" and enter your current and new password.",
+    "tags": [
+      "account",
+      "login",
+      "change password"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-11-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0221",
+    "source": "faq",
+    "title": "Is my personal information secure?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Is my personal information secure?",
+    "answer": "Yes, we use industry-standard encryption to protect your personal and payment information.",
+    "tags": [
+      "account",
+      "login",
+      "account security"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0222",
+    "source": "faq",
+    "title": "How do I update my saved payment methods?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I update my saved payment methods?",
+    "answer": "Saved payment methods can be added, edited, or removed in the Payment Information section of your account.",
+    "tags": [
+      "account",
+      "login",
+      "update payment methods"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-04-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0223",
+    "source": "faq",
+    "title": "Can I merge two accounts?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Can I merge two accounts?",
+    "answer": "Accounts cannot be merged; contact support to manually transfer order history if needed.",
+    "tags": [
+      "account",
+      "login",
+      "merge accounts"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-26T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0224",
+    "source": "faq",
+    "title": "How do I view my order history?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I view my order history?",
+    "answer": "Your complete order history is available under the Orders tab in your account.",
+    "tags": [
+      "account",
+      "login",
+      "view order history"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-03-24T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0225",
+    "source": "faq",
+    "title": "Why haven't I received a verification email?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Why haven't I received a verification email?",
+    "answer": "Check your spam folder, and ensure the email address entered during signup was correct.",
+    "tags": [
+      "account",
+      "login",
+      "missing verification email"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0226",
+    "source": "faq",
+    "title": "Can I change my account username?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Can I change my account username?",
+    "answer": "Most accounts use email as the login identifier, which can be updated in Account Details.",
+    "tags": [
+      "account",
+      "login",
+      "change username"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-05-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0227",
+    "source": "faq",
+    "title": "How do I opt out of marketing emails?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I opt out of marketing emails?",
+    "answer": "Unsubscribe using the link at the bottom of any marketing email or via your communication preferences.",
+    "tags": [
+      "account",
+      "login",
+      "opt out marketing emails"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-02-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0228",
+    "source": "faq",
+    "title": "What happens to my data if I delete my account?",
+    "category": "Account",
+    "intent": "account",
+    "question": "What happens to my data if I delete my account?",
+    "answer": "Your personal data is removed in accordance with our privacy policy, though order records may be retained for legal purposes.",
+    "tags": [
+      "account",
+      "login",
+      "data deletion"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-06-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0229",
+    "source": "faq",
+    "title": "Can I recover a deleted account?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Can I recover a deleted account?",
+    "answer": "Deleted accounts generally cannot be recovered; you would need to create a new account.",
+    "tags": [
+      "account",
+      "login",
+      "recover deleted account"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-12-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0230",
+    "source": "faq",
+    "title": "How do I enable two-factor authentication?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Two-factor authentication can be enabled in the Security section of your account settings.",
+    "tags": [
+      "account",
+      "login",
+      "two-factor authentication"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-11-09T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0231",
+    "source": "faq",
+    "title": "Why does my account show incorrect order information?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Why does my account show incorrect order information?",
+    "answer": "Contact support if you notice discrepancies, as this may indicate a sync delay or account issue.",
+    "tags": [
+      "account",
+      "login",
+      "incorrect order info"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-09-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0232",
+    "source": "faq",
+    "title": "Can I link my social media account for login?",
+    "category": "Account",
+    "intent": "account",
+    "question": "Can I link my social media account for login?",
+    "answer": "Yes, you can link Google or Facebook for a faster login experience.",
+    "tags": [
+      "account",
+      "login",
+      "social login"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-03-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0233",
+    "source": "faq",
+    "title": "How do I update my communication preferences?",
+    "category": "Account",
+    "intent": "account",
+    "question": "How do I update my communication preferences?",
+    "answer": "Manage which emails you receive under Notification Preferences in your account settings.",
+    "tags": [
+      "account",
+      "login",
+      "communication preferences"
+    ],
+    "related_documents": [
+      "account_policy.pdf",
+      "privacy_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-20T00:00:00Z"
+  }
+]

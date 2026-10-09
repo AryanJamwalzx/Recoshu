@@ -1,0 +1,688 @@
+[
+  {
+    "faq_id": "FAQ0026",
+    "source": "faq",
+    "title": "What is the return period?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What is the return period?",
+    "answer": "Items can be returned within 30 days of delivery for a full refund.",
+    "tags": [
+      "return",
+      "refund",
+      "return window",
+      "30 days"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-09-08T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0027",
+    "source": "faq",
+    "title": "Can I return worn shoes?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return worn shoes?",
+    "answer": "Shoes worn outdoors are not eligible for return unless they are defective; shoes tried on indoors are accepted.",
+    "tags": [
+      "return",
+      "refund",
+      "worn shoes",
+      "return eligibility"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-10T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0028",
+    "source": "faq",
+    "title": "How do refunds work?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How do refunds work?",
+    "answer": "Refunds are issued to your original payment method within 5–7 business days after we receive and inspect your return.",
+    "tags": [
+      "return",
+      "refund",
+      "refund process",
+      "refund timing"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-05-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0029",
+    "source": "faq",
+    "title": "Can I exchange a product?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I exchange a product?",
+    "answer": "Yes, exchanges for a different size or color can be requested through the Returns Center within the return window.",
+    "tags": [
+      "return",
+      "refund",
+      "exchange",
+      "swap size"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-23T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0030",
+    "source": "faq",
+    "title": "Is return shipping free?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Is return shipping free?",
+    "answer": "Return shipping is free for rewards members; standard customers pay a flat $6.99 return label fee, deducted from the refund.",
+    "tags": [
+      "return",
+      "refund",
+      "free returns",
+      "return label fee"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0031",
+    "source": "faq",
+    "title": "What if I lost my receipt?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What if I lost my receipt?",
+    "answer": "Your order confirmation email or account order history serves as proof of purchase; a physical receipt isn't required.",
+    "tags": [
+      "return",
+      "refund",
+      "lost receipt",
+      "proof of purchase"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0032",
+    "source": "faq",
+    "title": "How do I start a return?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How do I start a return?",
+    "answer": "Log into your account, go to Order History, and select \"Start a Return\" next to the relevant order.",
+    "tags": [
+      "return",
+      "refund",
+      "start return",
+      "returns center"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-03-22T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0033",
+    "source": "faq",
+    "title": "Can I return a gift?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return a gift?",
+    "answer": "Yes, gifts can be returned for store credit using the gift receipt or order number provided by the purchaser.",
+    "tags": [
+      "return",
+      "refund",
+      "gift return",
+      "store credit"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0034",
+    "source": "faq",
+    "title": "Do you accept returns on sale items?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Do you accept returns on sale items?",
+    "answer": "Sale items are eligible for return within 14 days, unless marked as final sale.",
+    "tags": [
+      "return",
+      "refund",
+      "sale item return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-08-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0035",
+    "source": "faq",
+    "title": "What items are final sale?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What items are final sale?",
+    "answer": "Clearance items marked \"Final Sale,\" personalized products, and worn cleats or soccer shoes are not eligible for return.",
+    "tags": [
+      "return",
+      "refund",
+      "final sale",
+      "non-returnable"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-05-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0036",
+    "source": "faq",
+    "title": "How long does it take to process a return once received?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How long does it take to process a return once received?",
+    "answer": "Returns are typically inspected and processed within 3–5 business days of arrival at our warehouse.",
+    "tags": [
+      "return",
+      "refund",
+      "return processing time"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-10-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0037",
+    "source": "faq",
+    "title": "Can I return an item bought in-store online?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return an item bought in-store online?",
+    "answer": "In-store purchases must be returned to a physical store location; they cannot be mailed back.",
+    "tags": [
+      "return",
+      "refund",
+      "in-store purchase return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0038",
+    "source": "faq",
+    "title": "Can I return an online purchase in-store?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return an online purchase in-store?",
+    "answer": "Yes, online purchases can be returned to any store location with your order confirmation.",
+    "tags": [
+      "return",
+      "refund",
+      "online to store return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-12-24T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0039",
+    "source": "faq",
+    "title": "What if my item arrived damaged or defective?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What if my item arrived damaged or defective?",
+    "answer": "Contact support within 7 days of delivery with photos of the damage for a free replacement or full refund.",
+    "tags": [
+      "return",
+      "refund",
+      "damaged item",
+      "defective product"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0040",
+    "source": "faq",
+    "title": "Do I need the original packaging to return an item?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Do I need the original packaging to return an item?",
+    "answer": "Original packaging is preferred but not required as long as the item is in resalable condition.",
+    "tags": [
+      "return",
+      "refund",
+      "original packaging",
+      "shoebox"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-25T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0041",
+    "source": "faq",
+    "title": "Can I return only part of my order?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return only part of my order?",
+    "answer": "Yes, each item in a multi-item order can be returned independently.",
+    "tags": [
+      "return",
+      "refund",
+      "partial return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-01-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0042",
+    "source": "faq",
+    "title": "How will I know when my return has been received?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How will I know when my return has been received?",
+    "answer": "You'll receive an email confirmation once your return is scanned in at our warehouse.",
+    "tags": [
+      "return",
+      "refund",
+      "return confirmation"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-10T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0043",
+    "source": "faq",
+    "title": "Can I get a refund to a different payment method?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I get a refund to a different payment method?",
+    "answer": "Refunds are issued to the original payment method; if unavailable, store credit is issued instead.",
+    "tags": [
+      "return",
+      "refund",
+      "refund method"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-03-04T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0044",
+    "source": "faq",
+    "title": "What is store credit and how does it work?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What is store credit and how does it work?",
+    "answer": "Store credit is issued as a digital gift card code and can be used on any future purchase with no expiration.",
+    "tags": [
+      "return",
+      "refund",
+      "store credit"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0045",
+    "source": "faq",
+    "title": "Do returns affect my rewards points?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Do returns affect my rewards points?",
+    "answer": "Points earned on a returned item are deducted from your account once the return is processed.",
+    "tags": [
+      "return",
+      "refund",
+      "points deduction",
+      "rewards adjustment"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-06-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0046",
+    "source": "faq",
+    "title": "Can I return shoes without the box?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I return shoes without the box?",
+    "answer": "Yes, but returning with the original shoebox helps ensure a quicker inspection and full refund.",
+    "tags": [
+      "return",
+      "refund",
+      "missing shoebox"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-03-25T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0047",
+    "source": "faq",
+    "title": "What if my return is rejected?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What if my return is rejected?",
+    "answer": "If a returned item doesn't meet our return policy conditions, it will be shipped back to you with an explanation.",
+    "tags": [
+      "return",
+      "refund",
+      "rejected return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0048",
+    "source": "faq",
+    "title": "How many returns can I make?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How many returns can I make?",
+    "answer": "There's no hard limit, but accounts with unusually high return frequency may be flagged for review.",
+    "tags": [
+      "return",
+      "refund",
+      "return limit",
+      "return abuse"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-03-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0049",
+    "source": "faq",
+    "title": "Can I cancel a return request?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I cancel a return request?",
+    "answer": "Yes, return requests can be canceled from your account before the item is shipped back to us.",
+    "tags": [
+      "return",
+      "refund",
+      "cancel return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0050",
+    "source": "faq",
+    "title": "Do international orders have different return policies?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Do international orders have different return policies?",
+    "answer": "International orders have a 45-day return window to account for longer shipping times; return shipping costs vary by country.",
+    "tags": [
+      "return",
+      "refund",
+      "international return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-09-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0051",
+    "source": "faq",
+    "title": "What happens if I return an item after the deadline?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "What happens if I return an item after the deadline?",
+    "answer": "Items returned after 30 days may be denied a refund but could be eligible for store credit at our discretion.",
+    "tags": [
+      "return",
+      "refund",
+      "late return"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-02-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0052",
+    "source": "faq",
+    "title": "Can I exchange for a completely different product?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "Can I exchange for a completely different product?",
+    "answer": "Exchanges are limited to the same product in a different size or color; different products require a return and new order.",
+    "tags": [
+      "return",
+      "refund",
+      "product exchange limits"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-07-31T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0053",
+    "source": "faq",
+    "title": "How do refunds appear on my bank or credit card statement?",
+    "category": "Returns & Refunds",
+    "intent": "returns",
+    "question": "How do refunds appear on my bank or credit card statement?",
+    "answer": "Refunds typically appear within 5–7 business days and will show as a credit from our company name.",
+    "tags": [
+      "return",
+      "refund",
+      "refund statement",
+      "credit card refund"
+    ],
+    "related_documents": [
+      "return_policy.pdf",
+      "refund_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-03-22T00:00:00Z"
+  }
+]

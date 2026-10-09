@@ -1,0 +1,156 @@
+[
+  {
+    "query": "Tell me about the Nike Revolution 7 Grey Fog/White.",
+    "relevant": [
+      {
+        "field": "product_id",
+        "values": [
+          "NK000541"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What are the details of the Adidas Predator Elite Royal Blue/White?",
+    "relevant": [
+      {
+        "field": "product_id",
+        "values": [
+          "AD000770"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "How much is the Nike Infinity Run 4 Sail/Gum?",
+    "relevant": [
+      {
+        "field": "product_id",
+        "values": [
+          "NK000995"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What are the details of the Nike Air Zoom Pegasus 40 Team Orange/Black?",
+    "relevant": [
+      {
+        "field": "product_id",
+        "values": [
+          "NK001103"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Tell me about the Adidas Adistar Lilac Bloom.",
+    "relevant": [
+      {
+        "field": "product_id",
+        "values": [
+          "AD000520"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "How do I start a return?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0032"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is the return period?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0026"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Which payment methods are accepted?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0074"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "How long does standard shipping take?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0001"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is covered under warranty?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0164"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Are Nike shoes waterproof?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0094"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "How do I reset my password?",
+    "relevant": [
+      {
+        "field": "faq_id",
+        "values": [
+          "FAQ0214"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "How does the Nike exchange process work?",
+    "relevant": [
+      {
+        "field": "source_file",
+        "values": [
+          "exchange_policy.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is the return policy for Nike products?",
+    "relevant": [
+      {
+        "field": "source_file",
+        "values": [
+          "return_policy.pdf"
+        ]
+      }
+    ]
+  }
+]

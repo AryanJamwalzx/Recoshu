@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReCoShU</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Syne:wght@700;800&display=swap');
+:root{--bg:#BBA9E0;--bg2:#C9BAE8;--card:rgba(255,255,255,.62);--solid:#F4F0FB;--ind:#4B55D6;--ind-d:#3A43B8;--text:#17132B;--dim:#4A4468;--line:rgba(75,85,214,.22);--sh:0 10px 30px -14px rgba(40,30,90,.35);
+--pad:clamp(20px,5vw,88px);--s1:8px;--s2:16px;--s3:24px;--s4:40px;--s5:64px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);background-attachment:fixed;color:var(--text);font-family:'Hahmlet',serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit}
+h1,h2,h3{margin:0;font-weight:500}
+::selection{background:var(--ind);color:#fff}
+
+header{position:sticky;top:0;z-index:40;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 var(--pad);background:rgba(187,169,224,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{font-family:'Syne',sans-serif;font-weight:800;font-size:26px;letter-spacing:.5px;color:var(--ind)}
+nav{display:flex;gap:var(--s4)}
+nav a{font-size:14px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;transition:.2s}
+nav a:hover{color:var(--ind);border-color:var(--ind)}
+
+.hero{width:100%;min-height:calc(100vh - 72px);display:flex;flex-direction:column;justify-content:center;padding:var(--s5) var(--pad)}
+.hero h1{font-size:clamp(40px,6.4vw,96px);font-weight:600;line-height:1.05;color:var(--ind);letter-spacing:-1.5px;margin-bottom:var(--s3);width:100%}
+.hero p{font-size:clamp(16px,1.5vw,21px);line-height:1.7;max-width:none;width:100%;margin:0 0 var(--s4)}
+.composer{display:flex;align-items:center;gap:var(--s2);background:#fff;border:2px solid transparent;border-radius:999px;padding:10px 10px 10px 32px;width:100%;box-shadow:var(--sh);transition:.25s}
+.composer:focus-within{border-color:var(--ind)}
+.composer input{flex:1;min-width:0;background:transparent;border:0;outline:0;font-size:17px;padding:14px 0}
+.composer input::placeholder{color:#8a84a6}
+.composer button{width:54px;height:54px;flex:none;border-radius:50%;border:0;background:var(--ind);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s}
+.composer button:hover{background:var(--ind-d);transform:scale(1.06)}
+.composer button:disabled{background:#c9c4dc;cursor:default;transform:none}
+.composer svg{width:22px;height:22px}
+.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:var(--s3)}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:12px 22px;font-size:14px;font-weight:500;cursor:pointer}
+
+
+section.shell{width:100%;min-height:calc(100vh - 72px);padding:var(--s5) var(--pad);perspective:1000px;scroll-margin-top:72px}
+.section-head{margin-bottom:var(--s4);padding-bottom:var(--s2);border-bottom:1px solid var(--line)}
+.section-head h2{font-size:clamp(28px,3.2vw,44px);font-weight:600;color:var(--ind)}
+.section-head p{color:var(--dim);font-size:15px;margin:var(--s1) 0 0}
+.note{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:var(--s3) 28px;line-height:1.7;margin-bottom:var(--s3);box-shadow:var(--sh)}
+.note.err{border-color:#b4533f}
+.note button{margin-left:12px;background:var(--ind);color:#fff;border:0;border-radius:10px;padding:7px 16px;cursor:pointer}
+.kicker{font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--ind);margin-bottom:var(--s1)}
+.pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ind);margin-right:8px;animation:p 1s infinite}
+@keyframes p{50%{opacity:.25}}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:var(--s3)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;cursor:pointer;box-shadow:var(--sh)}
+.card .ico{width:48px;height:48px;border-radius:14px;background:var(--ind);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:var(--s2)}
+.card .ico svg{width:24px;height:24px}
+.tag{font-size:11px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--ind);margin-bottom:6px}
+.title{font-size:20px;font-weight:600;line-height:1.3;margin-bottom:12px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:var(--s2);align-items:center}
+.price{font-weight:700;font-size:17px;color:var(--ind)}
+.pill{font-size:11px;font-weight:500;background:rgba(75,85,214,.12);border-radius:10px;padding:4px 10px;color:var(--ind-d)}
+.view{font-size:13px;font-weight:600;color:var(--ind)}
+
+.answer{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:36px 40px;box-shadow:var(--sh)}
+.answer h3{font-size:clamp(22px,2.2vw,30px);font-weight:600;margin-bottom:var(--s2)}
+.answer .body{border-top:1px solid var(--line);padding-top:var(--s2);line-height:1.8;font-size:16px}
+.srcs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:var(--s2)}
+
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s2);margin-bottom:var(--s3)}
+.cat-btn{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;text-align:left;cursor:pointer;box-shadow:var(--sh)}
+.cat-btn b{display:block;font-weight:600;font-size:16px;margin-bottom:6px;color:var(--ind)}
+.cat-btn span{font-size:13px;color:var(--dim);line-height:1.5}
+.faq{display:flex;flex-direction:column;gap:12px}
+.faq-item{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--sh)}
+.faq-item.open{border-color:var(--ind)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;gap:var(--s2);padding:20px 28px;cursor:pointer;font-weight:500}
+.faq-q small{display:block;font-size:10.5px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--ind);margin-bottom:4px}
+.faq-q span.pm{font-size:24px;color:var(--ind);transition:.2s}
+.faq-item.open .pm{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease}
+.faq-a div.in{padding:0 28px 24px;line-height:1.8;font-size:15px}
+
+
+.overlay{position:fixed;inset:0;background:rgba(23,19,43,.55);display:none;align-items:center;justify-content:center;z-index:80;padding:18px}
+.overlay.open{display:flex}
+.modal{background:var(--solid);border-radius:22px;width:min(640px,100%);max-height:88vh;overflow-y:auto;padding:32px;position:relative;box-shadow:0 30px 60px -20px rgba(23,19,43,.5)}
+.modal h3{font-size:28px;font-weight:600;color:var(--ind);margin-bottom:6px}
+.modal label{display:block;font-size:12.5px;color:var(--dim);margin:12px 0 6px}
+.modal input{width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px;outline:0}
+.modal input:focus{border-color:var(--ind)}
+.x{position:absolute;top:14px;right:18px;cursor:pointer;font-size:26px;line-height:1;color:var(--dim);background:none;border:0}
+.row{display:flex;justify-content:space-between;gap:18px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.row span:first-child{color:var(--dim)}
+.row span:last-child{text-align:right;font-weight:500}
+.btns{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+.btns button{background:transparent;border:1px solid var(--ind);color:var(--ind);border-radius:10px;padding:9px 18px;cursor:pointer;font-weight:500}
+.btns button:last-child{background:var(--ind);color:#fff}
+
+footer{border-top:1px solid var(--line);padding:var(--s4) var(--pad);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--dim)}
+
+@media(max-width:900px){nav{display:none}.cats{grid-template-columns:repeat(2,1fr)}.answer{padding:26px}}
+@media(max-width:600px){.cats{grid-template-columns:1fr}.composer{padding-left:22px}}
+@media(prefers-reduced-motion:reduce){.pulse{animation:none}html{scroll-behavior:auto}}
+.chip,.cat-btn,.card{transition:transform .2s,border-color .2s,box-shadow .2s}
+.chip:hover,.cat-btn:hover,.card:hover{transform:translateY(-3px);border-color:var(--ind);box-shadow:0 18px 32px -16px rgba(40,30,110,.4)}
+:focus-visible{outline:3px solid var(--ind);outline-offset:3px}
+.status{min-height:24px;margin-top:var(--s2);font-size:14px;color:var(--dim)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">ReCoShU</div>
+  <nav><a href="#shop">Results</a><a href="#support">Support</a></nav>
+</header>
+
+<div class="hero">
+  <h1>Find your perfect fit.</h1>
+  <p>Ask about shoes, sizing, returns or warranty and get clear answers from real inventory and store policy.</p>
+  <div class="composer">
+    <input id="q" type="text" placeholder="Ask about shoes, sizing, returns…" autocomplete="off">
+    <button id="send" disabled aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg></button>
+  </div>
+  <div class="chips">
+    <button class="chip" data-q="Recommend running shoes under 5000 rupees">Running shoes under ₹5,000</button>
+    <button class="chip" data-q="What is the return period?">Return period</button>
+    <button class="chip" data-q="Do you offer warranty on shoes?">Warranty coverage</button>
+    <button class="chip" data-q="Best everyday lifestyle sneakers">Everyday sneakers</button>
+  </div>
+  <div class="status" id="status" role="status" aria-live="polite"></div>
+</div>
+
+<section class="shell" id="shop">
+  <div class="section-head"><h2>Your matches</h2><p id="sub">Ask a question above to see answers here.</p></div>
+  <div id="results" aria-live="polite"><div class="note">Nothing yet — try a suggestion or ask your own question.</div></div>
+</section>
+
+<section class="shell" id="support">
+  <div class="section-head"><h2>Help, without the fine print</h2><p>Quick answers pulled directly from the indexed support documents.</p></div>
+  <div class="cats">
+    <button class="cat-btn" data-c="Shipping"><b>Shipping &amp; Delivery</b><span>Delivery times and shipping info.</span></button>
+    <button class="cat-btn" data-c="Returns"><b>Returns &amp; Exchanges</b><span>Windows, conditions, exchanges.</span></button>
+    <button class="cat-btn" data-c="Warranty"><b>Warranty</b><span>Coverage and product warranty.</span></button>
+    <button class="cat-btn" data-c="Sizing"><b>Sizing &amp; Fit</b><span>Find the right size and fit.</span></button>
+  </div>
+  <div class="faq" id="faq"></div>
+</section>
+
+<footer>
+  <span>© 2026 ReCoShU. Recommendations are generated from indexed data and may vary.</span>
+</footer>
+
+<div class="overlay" id="po"><div class="modal" id="pm" role="dialog" aria-modal="true" aria-label="Product details"></div></div>
+
+<script>
+(function(){
+  const DEFAULT_API = window.location.origin;
+  const apiBase = DEFAULT_API;
+  const SHOE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 18h20v2H2z"/><path d="M3 18v-3.5c2-1 3.5-2.5 4.5-4.5.7 1 2 1.8 3.5 1.8 1.8 0 3-1 4-2.3 1.2 1.7 3.4 2.8 6 3.5.8.2 1 .7 1 1.5V18"/></svg>';
+
+  const KEYS = ['product_id','sku','brand','product_name','model','collection','gender','age_group','category','sub_category','sport','shoe_type','terrain','usage','color','size','width','price','currency','discount_percentage','final_price','stock_quantity','availability','launch_year','upper_material','midsole_material','outsole_material','weight_grams','cushioning','arch_support','waterproof','breathable','slip_resistant','heel_drop_mm','stack_height_mm','stability_level','flexibility','durability_rating','average_rating','review_count','bestseller','trending','sustainability_score','country_of_origin','image_url','thumbnail_url'];
+  const HIDE = ['product_name','currency','image_url','thumbnail_url'];
+  const PRICE = ['price','final_price'];
+
+  const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const $ = id => document.getElementById(id);
+
+  const splitContext = c => { const p = String(c||'').split(/\n\s*-{3,}\s*\n|\n{2,}/g).map(v=>v.trim()).filter(Boolean); return p.length ? p : [String(c||'').trim()]; };
+
+  function titleFor(chunk){
+    const m = String(chunk).match(/^([A-Z]{2,}[-_ ]?\d{2,}|FAQ\d+|SKU[-_ ]?\w+)/);
+    if(m) return m[1];
+    const f = String(chunk).split('\n')[0];
+    return f.length <= 46 ? f : f.slice(0,46) + '…';
+  }
+
+  function parseProduct(text){
+    const re = new RegExp(`\\b(${KEYS.join('|')})\\s*:\\s*`,'g');
+    const m = [...String(text).matchAll(re)];
+    if(m.length < 4) return null;
+    const f = {};
+    m.forEach((x,i)=>{
+      const s = x.index + x[0].length, e = i+1 < m.length ? m[i+1].index : text.length;
+      f[x[1]] = text.slice(s,e).trim().replace(/\s+/g,' ');
+    });
+    if(!f.product_name && !f.brand && !f.product_id) return null;
+    const d = text.slice(0,m[0].index).match(/Description\s*:\s*([\s\S]*)$/i);
+    f.__description = d ? d[1].trim() : '';
+    return f;
+  }
+
+  function parseFaq(text){
+    const t = String(text||'').trim();
+    const m = [...t.matchAll(/\b(Question|Answer|Keywords)\s*:\s*/gi)];
+    if(m.length < 2) return null;
+    const f = {};
+    m.forEach((x,i)=>{
+      const s = x.index + x[0].length, e = i+1 < m.length ? m[i+1].index : t.length;
+      f[x[1].toLowerCase()] = t.slice(s,e).trim().replace(/\s+/g,' ');
+    });
+    if(!f.answer) return null;
+    const n = t.match(/FAQ\s*#?\s*(\d+)/i);
+    const c = t.match(/Category\s*:\s*([^)\n]*?)\s*\)/i) || t.match(/Category\s*:\s*([^\n]*?)(?=\s*Question\s*:|$)/i);
+    return {number:n?n[1]:'', category:c?c[1].trim():'', answer:f.answer};
+  }
+
+  const srcLabel = c => { const f = parseFaq(c); return f ? `FAQ ${f.number}${f.category ? ' · ' + f.category : ''}` : titleFor(c); };
+  const sym = cur => cur === 'USD' ? '$' : cur === 'INR' ? '₹' : cur ? cur + ' ' : '';
+  const priceOf = p => { const r = p.final_price || p.price; return r ? (String(r).includes(sym(String(p.currency||'').toUpperCase())) ? r : sym(String(p.currency||'').toUpperCase()) + r) : ''; };
+
+  function fmt(key,raw,cur){
+    const v = String(raw).trim();
+    if(v.toLowerCase() === 'true') return 'Yes';
+    if(v.toLowerCase() === 'false') return 'No';
+    if(PRICE.includes(key)) return sym(cur) + v;
+    if(key === 'discount_percentage') return v + '%';
+    if(key === 'weight_grams') return v + ' g';
+    if(/_mm$/.test(key)) return v + ' mm';
+    if(/rating$/.test(key)) return v + '/5';
+    return v;
+  }
+
+  async function fetchAnswer(query,signal){
+    const r = await fetch(apiBase.replace(/\/$/,'') + '/query',{method:'POST',signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({query,final_k:6})});
+    if(!r.ok) throw new Error('Request failed');
+    return r.json();
+  }
+
+  const results = $('results'), input = $('q'), send = $('send'), shop = $('shop'), status = $('status');
+  let lastQuery = null, products = {};
+
+  function supportHtml(query,chunks){
+    const f = parseFaq(chunks[0]);
+    const pills = chunks.slice(1,3).map(c=>`<span class="pill">${esc(srcLabel(c))}</span>`).join('');
+    return `<div class="answer"><div class="kicker">Support answer</div><h3>${esc(query)}</h3><div class="body">${esc(f ? f.answer : (chunks[0] || 'No documented answer is available.'))}</div>${pills ? `<div class="srcs"><span class="tag" style="margin:0">Sources</span>${pills}</div>` : ''}</div>`;
+  }
+
+  function render(query,context){
+    const chunks = splitContext(context), list = [];
+    products = {};
+    chunks.forEach((c,i)=>{ const p = parseProduct(c); if(p){ products[i] = p; list.push([p,i]); } });
+    $('sub').textContent = `Matches for “${query}”`;
+    if(!list.length){ results.innerHTML = supportHtml(query,chunks); return; }
+    results.innerHTML = `<div class="note"><div class="kicker">Stylist note</div>Here's what fits best for “${esc(query)}”, based on current inventory.</div><div class="grid">${list.map(([p,i])=>{
+      const meta = [p.category || p.sub_category, p.sport, p.gender].filter(Boolean).slice(0,3);
+      return `<div class="card" data-i="${i}" tabindex="0" role="button">
+        <div class="ico">${SHOE}</div>
+        <div class="tag">${esc(p.brand || 'Brand not specified')}</div>
+        <div class="title">${esc(p.product_name || p.model || 'Product')}</div>
+        <div class="meta">${priceOf(p) ? `<span class="price">${esc(priceOf(p))}</span>` : ''}${p.average_rating ? `<span class="pill">★ ${esc(p.average_rating)}</span>` : ''}${meta.map(v=>`<span class="pill">${esc(v)}</span>`).join('')}</div>
+        <div class="view">View details →</div></div>`;
+    }).join('')}</div>`;
+    results.querySelectorAll('.card').forEach(c=>{
+      const open = ()=>openProduct(products[c.dataset.i]);
+      c.onclick = open;
+      c.onkeydown = e=>{ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(); } };
+    });
+  }
+
+  let ctrl = null;
+  const goToResults = () => shop.scrollIntoView({behavior:'smooth',block:'start'});
+
+  async function run(query){
+    if(!query) return;
+    if(ctrl) ctrl.abort();
+    ctrl = new AbortController();
+    const timer = setTimeout(()=>ctrl.abort(),30000);
+    lastQuery = query;
+    send.disabled = true;
+    status.innerHTML = '<span class="pulse"></span>Finding your best matches…';
+    try{
+      const d = await fetchAnswer(query,ctrl.signal);
+      if(!d.has_results || !d.context) results.innerHTML = `<div class="note">Nothing matched “${esc(query)}” closely enough. Try a different phrasing.</div>`;
+      else render(query,d.context);
+      status.textContent = '';
+      goToResults();
+    }catch(e){
+      if(e.name === 'AbortError' && ctrl.signal.aborted && lastQuery !== query) return;
+      status.textContent = '';
+      results.innerHTML = `<div class="note err">We couldn't load recommendations. Check your connection and try again.<button id="retry">Retry</button></div>`;
+      $('retry').onclick = ()=>run(lastQuery);
+      goToResults();
+    }finally{
+      clearTimeout(timer);
+      send.disabled = !input.value.trim();
+    }
+  }
+
+  input.addEventListener('input',()=>{ send.disabled = !input.value.trim(); });
+  input.addEventListener('keydown',e=>{ if(e.key === 'Enter') run(input.value.trim()); });
+  send.addEventListener('click',()=>run(input.value.trim()));
+  document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
+    input.value = c.dataset.q; send.disabled = false; run(c.dataset.q);
+  }));
+
+  // FAQ
+  const FAQS = [['Shipping','How long does standard shipping take?'],['Returns','What is the return period?'],['Warranty','Do you offer warranty on shoes?'],['Sizing','How do I find my correct shoe size?']];
+  FAQS.forEach(([cat,q])=>{
+    const el = document.createElement('div');
+    el.className = 'faq-item';
+    el.innerHTML = `<div class="faq-q"><div><small>${cat}</small>${esc(q)}</div><span class="pm">+</span></div><div class="faq-a"><div class="in">—</div></div>`;
+    const a = el.querySelector('.faq-a'), body = el.querySelector('.in');
+    let loaded = false;
+    el.querySelector('.faq-q').onclick = async ()=>{
+      const wasOpen = el.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(o=>{ o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = null; });
+      if(wasOpen) return;
+      el.classList.add('open');
+      if(!loaded){
+        body.innerHTML = '<span class="pulse"></span>Looking this up…';
+        a.style.maxHeight = '90px';
+        try{
+          const d = await fetchAnswer(q);
+          if(!d.has_results || !d.context) body.textContent = "We don't have a documented answer for this yet. Please reach out to support.";
+          else{
+            const ch = splitContext(d.context), f = parseFaq(ch[0]);
+            const pills = ch.slice(1,3).map(c=>`<span class="pill">${esc(srcLabel(c))}</span>`).join('');
+            body.innerHTML = esc(f ? f.answer : ch[0]) + (pills ? `<div class="srcs"><span class="tag" style="margin:0">Sources</span>${pills}</div>` : '');
+          }
+        }catch(e){ body.textContent = "We couldn't load this answer right now. Please try again shortly."; }
+        loaded = true;
+      }
+      a.style.maxHeight = a.scrollHeight + 'px';
+    };
+    $('faq').appendChild(el);
+  });
+  document.querySelectorAll('.cat-btn').forEach(b=>b.addEventListener('click',()=>{
+    const t = [...document.querySelectorAll('.faq-item')].find(i=>i.querySelector('small').textContent === b.dataset.c);
+    if(!t) return;
+    t.scrollIntoView({behavior:'smooth',block:'center'});
+    setTimeout(()=>{ if(!t.classList.contains('open')) t.querySelector('.faq-q').click(); },350);
+  }));
+
+  // Product modal
+  const po = $('po'), pm = $('pm');
+  function openProduct(p){
+    if(!p) return;
+    const cur = String(p.currency || '').toUpperCase();
+    const rows = KEYS.filter(k=>!HIDE.includes(k) && p[k] && String(p[k]).trim()).map(k=>{
+      const label = k.replace(/_mm$/,'').replace(/_/g,' ').replace(/^./,c=>c.toUpperCase());
+      return `<div class="row"><span>${esc(label)}</span><span>${esc(fmt(k,p[k],cur))}</span></div>`;
+    }).join('');
+    pm.innerHTML = `<button class="x" id="px" aria-label="Close">×</button><div class="tag">${esc(p.brand || '')}</div><h3>${esc(p.product_name || p.model || 'Product')}</h3>${priceOf(p) ? `<div class="price" style="font-size:22px;margin-bottom:14px">${esc(priceOf(p))}</div>` : ''}<div style="border-top:1px solid var(--line)">${rows}</div><div class="kicker" style="margin-top:18px">Summary</div><div style="line-height:1.7;font-size:13.5px">${esc(p.__description || 'No additional product summary is available.')}</div>`;
+    $('px').onclick = ()=>po.classList.remove('open');
+    po.classList.add('open');
+    $('px').focus();
+  }
+  po.addEventListener('click',e=>{ if(e.target === po) po.classList.remove('open'); });
+  document.addEventListener('keydown',e=>{ if(e.key === 'Escape') po.classList.remove('open'); });
+
+})();
+</script>
+</body>
+</html>

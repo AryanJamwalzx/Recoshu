@@ -1,0 +1,47 @@
+[
+  {
+    "query": "Show me Nike running shoes under $100.",
+    "constraints": {
+      "brand": "Nike",
+      "sport": "Running",
+      "final_price": {
+        "$lte": 100
+      }
+    }
+  },
+  {
+    "query": "I need Adidas soccer shoes for men.",
+    "constraints": {
+      "brand": "Adidas",
+      "sport": "Soccer",
+      "gender": "Men"
+    }
+  },
+  {
+    "query": "Show me Adidas shoes for indoor gym and cross-training.",
+    "constraints": {
+      "brand": "Adidas",
+      "usage": "Gym & Cross-Training",
+      "terrain": "Indoor"
+    }
+  },
+  {
+    "query": "I want Nike running shoes that are in stock.",
+    "constraints": {
+      "brand": "Nike",
+      "sport": "Running",
+      "availability": "In Stock"
+    }
+  },
+  {
+    "query": "Show me men's Nike running shoes under $80.",
+    "constraints": {
+      "brand": "Nike",
+      "sport": "Running",
+      "gender": "Men",
+      "final_price": {
+        "$lte": 80
+      }
+    }
+  }
+]

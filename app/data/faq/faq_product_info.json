@@ -1,0 +1,583 @@
+[
+  {
+    "faq_id": "FAQ0094",
+    "source": "faq",
+    "title": "Are Nike shoes waterproof?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are Nike shoes waterproof?",
+    "answer": "Most Nike lifestyle and running shoes are not fully waterproof, though select trail and winter styles feature water-resistant uppers.",
+    "tags": [
+      "product",
+      "shoes",
+      "nike waterproof",
+      "water resistance"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-06-24T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0095",
+    "source": "faq",
+    "title": "Which shoes are best for marathon running?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes are best for marathon running?",
+    "answer": "Racing-focused models with max cushioning and lightweight construction, such as carbon-plated racing flats, are best suited for marathons.",
+    "tags": [
+      "product",
+      "shoes",
+      "marathon shoes",
+      "racing shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-11-23T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0096",
+    "source": "faq",
+    "title": "How do I clean white sneakers?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "How do I clean white sneakers?",
+    "answer": "Use a soft brush with mild soap and water, avoid harsh chemicals, and air dry away from direct heat.",
+    "tags": [
+      "product",
+      "shoes",
+      "clean white sneakers"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-05-08T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0097",
+    "source": "faq",
+    "title": "Which shoes have the most cushioning?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes have the most cushioning?",
+    "answer": "Models labeled with \"Max\" cushioning ratings offer the highest level of impact absorption, ideal for long-distance comfort.",
+    "tags": [
+      "product",
+      "shoes",
+      "max cushioning"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-06-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0098",
+    "source": "faq",
+    "title": "Which shoes are suitable for trail running?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes are suitable for trail running?",
+    "answer": "Trail running shoes feature aggressive outsole traction and reinforced uppers designed for off-road terrain.",
+    "tags": [
+      "product",
+      "shoes",
+      "trail running shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0099",
+    "source": "faq",
+    "title": "What's the difference between a trainer and a racing flat?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What's the difference between a trainer and a racing flat?",
+    "answer": "Trainers offer more cushioning and durability for daily use, while racing flats are lighter and built for speed on race day.",
+    "tags": [
+      "product",
+      "shoes",
+      "trainer vs racing flat"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-09-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0100",
+    "source": "faq",
+    "title": "Are Adidas Boost midsoles better than standard EVA foam?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are Adidas Boost midsoles better than standard EVA foam?",
+    "answer": "Boost midsoles offer more energy return and cushioning compared to standard EVA foam, though EVA is lighter and more affordable.",
+    "tags": [
+      "product",
+      "shoes",
+      "boost midsole",
+      "eva foam"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-23T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0101",
+    "source": "faq",
+    "title": "Which shoes are good for people with flat feet?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes are good for people with flat feet?",
+    "answer": "Stability shoes with motion control and firm arch support are generally recommended for flat feet.",
+    "tags": [
+      "product",
+      "shoes",
+      "flat feet shoes",
+      "stability shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-11-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0102",
+    "source": "faq",
+    "title": "Do all running shoes have the same heel-to-toe drop?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Do all running shoes have the same heel-to-toe drop?",
+    "answer": "No, heel drop varies by model, typically ranging from 0mm to 12mm depending on the shoe's design purpose.",
+    "tags": [
+      "product",
+      "shoes",
+      "heel drop",
+      "heel-to-toe drop"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-01-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0103",
+    "source": "faq",
+    "title": "What does \"neutral\" vs \"stability\" shoe mean?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What does \"neutral\" vs \"stability\" shoe mean?",
+    "answer": "Neutral shoes suit runners with a normal gait, while stability shoes provide extra support for runners who overpronate.",
+    "tags": [
+      "product",
+      "shoes",
+      "neutral shoe",
+      "stability shoe"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0104",
+    "source": "faq",
+    "title": "Are basketball shoes good for everyday wear?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are basketball shoes good for everyday wear?",
+    "answer": "Yes, many basketball shoes are popular as lifestyle sneakers due to their cushioning and durable construction.",
+    "tags": [
+      "product",
+      "shoes",
+      "basketball shoes everyday"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-01-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0105",
+    "source": "faq",
+    "title": "What is the difference between mesh and knit uppers?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What is the difference between mesh and knit uppers?",
+    "answer": "Mesh uppers are typically more breathable and rigid, while knit uppers offer a more flexible, sock-like fit.",
+    "tags": [
+      "product",
+      "shoes",
+      "mesh vs knit upper"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0106",
+    "source": "faq",
+    "title": "Which shoes are best for wide feet?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes are best for wide feet?",
+    "answer": "Look for models offered in \"Wide\" or \"Extra Wide\" width options, which provide extra room in the toe box.",
+    "tags": [
+      "product",
+      "shoes",
+      "wide feet shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-07-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0107",
+    "source": "faq",
+    "title": "Do trail shoes work for road running?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Do trail shoes work for road running?",
+    "answer": "Trail shoes can be used on roads but their aggressive tread may wear faster and feel less cushioned than dedicated road shoes.",
+    "tags": [
+      "product",
+      "shoes",
+      "trail shoes on road"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-01-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0108",
+    "source": "faq",
+    "title": "What is a carbon plate in running shoes?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What is a carbon plate in running shoes?",
+    "answer": "A carbon plate is a rigid insert in the midsole that increases propulsion and energy return, common in racing shoes.",
+    "tags": [
+      "product",
+      "shoes",
+      "carbon plate"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-10-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0109",
+    "source": "faq",
+    "title": "Are soccer cleats different from turf shoes?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are soccer cleats different from turf shoes?",
+    "answer": "Yes, cleats have molded or removable studs for grass, while turf shoes have small rubber nubs designed for artificial turf.",
+    "tags": [
+      "product",
+      "shoes",
+      "cleats vs turf shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-06-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0110",
+    "source": "faq",
+    "title": "What shoes are best for weightlifting?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What shoes are best for weightlifting?",
+    "answer": "Flat, stable shoes with minimal cushioning and a low heel-to-toe drop provide the best base for lifting.",
+    "tags": [
+      "product",
+      "shoes",
+      "weightlifting shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-03-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0111",
+    "source": "faq",
+    "title": "How do I know which shoes are true to size?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "How do I know which shoes are true to size?",
+    "answer": "Product pages include specific sizing notes; check the Size & Fit tab for brand and model-specific guidance.",
+    "tags": [
+      "product",
+      "shoes",
+      "true to size"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-16T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0112",
+    "source": "faq",
+    "title": "Are all Adidas Originals shoes lifestyle only?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are all Adidas Originals shoes lifestyle only?",
+    "answer": "Most Originals models are designed for casual wear, though some, like Samba, were originally performance shoes.",
+    "tags": [
+      "product",
+      "shoes",
+      "adidas originals"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-05-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0113",
+    "source": "faq",
+    "title": "What is the benefit of a lower stack height?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What is the benefit of a lower stack height?",
+    "answer": "Lower stack heights offer more ground feel and stability but less cushioning than higher stack shoes.",
+    "tags": [
+      "product",
+      "shoes",
+      "stack height"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-06-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0114",
+    "source": "faq",
+    "title": "Which shoes are recommended for standing all day at work?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes are recommended for standing all day at work?",
+    "answer": "Shoes with high cushioning and good arch support are best for all-day standing comfort.",
+    "tags": [
+      "product",
+      "shoes",
+      "standing all day shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-06-09T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0115",
+    "source": "faq",
+    "title": "Do skate shoes offer good ankle support?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Do skate shoes offer good ankle support?",
+    "answer": "Skate shoes prioritize board feel and durability over ankle support; high-top styles offer more coverage.",
+    "tags": [
+      "product",
+      "shoes",
+      "skate shoes ankle support"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-09-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0116",
+    "source": "faq",
+    "title": "What makes a shoe \"breathable\"?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "What makes a shoe \"breathable\"?",
+    "answer": "Breathable shoes use mesh or knit materials that allow airflow to keep feet cool and reduce moisture buildup.",
+    "tags": [
+      "product",
+      "shoes",
+      "breathable shoe"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-12-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0117",
+    "source": "faq",
+    "title": "Are there vegan shoe options available?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Are there vegan shoe options available?",
+    "answer": "Yes, select models use synthetic materials instead of leather and are labeled as vegan-friendly.",
+    "tags": [
+      "product",
+      "shoes",
+      "vegan shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-08T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0118",
+    "source": "faq",
+    "title": "Which shoes work best in hot weather?",
+    "category": "Product Information",
+    "intent": "product_info",
+    "question": "Which shoes work best in hot weather?",
+    "answer": "Lightweight, highly breathable shoes with mesh uppers are best suited for hot weather conditions.",
+    "tags": [
+      "product",
+      "shoes",
+      "hot weather shoes"
+    ],
+    "related_documents": [
+      "product_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-02-15T00:00:00Z"
+  }
+]

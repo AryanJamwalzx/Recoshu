@@ -1,0 +1,595 @@
+[
+  {
+    "faq_id": "FAQ0001",
+    "source": "faq",
+    "title": "How long does standard shipping take?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "How long does standard shipping take?",
+    "answer": "Standard shipping usually takes 3–5 business days within the continental United States.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "standard shipping",
+      "arrival"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-11-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0002",
+    "source": "faq",
+    "title": "Do you offer express delivery?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you offer express delivery?",
+    "answer": "Yes, express shipping is available at checkout and typically delivers within 1–2 business days for an additional fee.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "express shipping",
+      "fast delivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-07-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0003",
+    "source": "faq",
+    "title": "Is international shipping available?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Is international shipping available?",
+    "answer": "Yes, we ship to over 40 countries, with delivery times ranging from 7–14 business days depending on destination.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "international",
+      "worldwide shipping"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-12-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0004",
+    "source": "faq",
+    "title": "How much does shipping cost?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "How much does shipping cost?",
+    "answer": "Standard shipping is free on orders over $50; orders under $50 incur a flat $5.99 shipping fee.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "shipping cost",
+      "free shipping"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-01-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0005",
+    "source": "faq",
+    "title": "Can I change my shipping address after placing an order?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Can I change my shipping address after placing an order?",
+    "answer": "You can update your shipping address within 1 hour of placing the order by contacting customer support, provided it hasn't shipped yet.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "change address",
+      "edit order"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-11-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0006",
+    "source": "faq",
+    "title": "What happens if my package is delayed?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What happens if my package is delayed?",
+    "answer": "If your package is delayed beyond the estimated delivery window, contact support with your order number and we'll investigate with the carrier.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "delayed package",
+      "late delivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-08-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0007",
+    "source": "faq",
+    "title": "How do I track my order?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "How do I track my order?",
+    "answer": "You'll receive a tracking link via email once your order ships; you can also track it from the Orders section of your account.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "track order",
+      "tracking number"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0008",
+    "source": "faq",
+    "title": "Do you ship to PO boxes?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you ship to PO boxes?",
+    "answer": "Standard shipping supports PO boxes, but express and international shipping do not.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "po box",
+      "delivery restrictions"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-12-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0009",
+    "source": "faq",
+    "title": "What carriers do you use?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What carriers do you use?",
+    "answer": "We primarily ship via UPS, FedEx, and USPS depending on your location and shipping method.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "carrier",
+      "ups",
+      "fedex",
+      "usps"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-01-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0010",
+    "source": "faq",
+    "title": "Can I schedule a specific delivery date?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Can I schedule a specific delivery date?",
+    "answer": "We currently don't support scheduled delivery dates, but express shipping can help you receive your order faster.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "scheduled delivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-01-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0011",
+    "source": "faq",
+    "title": "Do you offer same-day delivery?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you offer same-day delivery?",
+    "answer": "Same-day delivery is available in select metro areas for orders placed before 12 PM local time.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "same-day delivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-01-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0012",
+    "source": "faq",
+    "title": "What if no one is home to receive my package?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What if no one is home to receive my package?",
+    "answer": "Carriers will typically leave the package in a safe location or attempt redelivery; you can also request signature-free delivery at checkout.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "missed delivery",
+      "redelivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-01-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0013",
+    "source": "faq",
+    "title": "Why is my order shipping in multiple packages?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Why is my order shipping in multiple packages?",
+    "answer": "Items in stock at different warehouses may ship separately to get them to you faster.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "split shipment",
+      "multiple packages"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-07-21T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0014",
+    "source": "faq",
+    "title": "Can I combine multiple orders into one shipment?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Can I combine multiple orders into one shipment?",
+    "answer": "Orders placed separately cannot be combined once submitted, even if placed on the same day.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "combine orders"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-07-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0015",
+    "source": "faq",
+    "title": "Do shipping costs vary by shoe weight or size?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do shipping costs vary by shoe weight or size?",
+    "answer": "No, shipping costs are based on order total and delivery method, not individual item weight.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "shipping fee calculation"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-15T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0016",
+    "source": "faq",
+    "title": "Is shipping insurance included?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Is shipping insurance included?",
+    "answer": "All orders include basic shipping protection against loss or damage during transit.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "shipping insurance",
+      "package protection"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-26T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0017",
+    "source": "faq",
+    "title": "What is the cutoff time for same-day order processing?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What is the cutoff time for same-day order processing?",
+    "answer": "Orders placed before 1 PM local time are typically processed and shipped the same business day.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "order cutoff time"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-01-06T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0018",
+    "source": "faq",
+    "title": "Do you ship on weekends?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you ship on weekends?",
+    "answer": "Orders are processed Monday through Friday; orders placed on weekends ship the next business day.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "weekend shipping"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-04-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0019",
+    "source": "faq",
+    "title": "How do I know if my item is in stock before ordering?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "How do I know if my item is in stock before ordering?",
+    "answer": "Product availability is shown in real time on each product page prior to checkout.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "stock availability"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-01-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0020",
+    "source": "faq",
+    "title": "What happens if I refuse a delivery?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What happens if I refuse a delivery?",
+    "answer": "Refused deliveries are returned to our warehouse and refunded once received, minus any return shipping fees if applicable.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "refused delivery"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-12-10T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0021",
+    "source": "faq",
+    "title": "Can I pick a different shipping carrier?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Can I pick a different shipping carrier?",
+    "answer": "Currently we select the carrier based on destination and speed; manual carrier selection isn't supported.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "choose carrier"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-12-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0022",
+    "source": "faq",
+    "title": "Do you charge customs or import duties for international orders?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you charge customs or import duties for international orders?",
+    "answer": "International orders may be subject to customs fees and import duties, which are the responsibility of the customer.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "customs",
+      "import duties"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-12-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0023",
+    "source": "faq",
+    "title": "How can I expedite an order after it's placed?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "How can I expedite an order after it's placed?",
+    "answer": "Contact customer support as soon as possible; we can upgrade shipping if the order hasn't entered fulfillment yet.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "expedite shipping",
+      "upgrade shipping"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-12-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0024",
+    "source": "faq",
+    "title": "What should I do if tracking shows delivered but I didn't receive my package?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "What should I do if tracking shows delivered but I didn't receive my package?",
+    "answer": "Check with neighbors and your building's mailroom first, then contact support within 48 hours to file a claim.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "missing package",
+      "lost package"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-27T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0025",
+    "source": "faq",
+    "title": "Do you offer free shipping for members?",
+    "category": "Shipping",
+    "intent": "shipping",
+    "question": "Do you offer free shipping for members?",
+    "answer": "Rewards members receive free standard shipping on all orders regardless of order total.",
+    "tags": [
+      "shipping",
+      "delivery",
+      "member shipping",
+      "free shipping perk"
+    ],
+    "related_documents": [
+      "shipping_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-18T00:00:00Z"
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "faq_id": "FAQ0164",
+    "source": "faq",
+    "title": "What is covered under warranty?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "What is covered under warranty?",
+    "answer": "Our warranty covers manufacturing defects in materials and workmanship under normal use conditions.",
+    "tags": [
+      "warranty",
+      "defect",
+      "warranty coverage"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-12-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0165",
+    "source": "faq",
+    "title": "How long is the warranty?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "How long is the warranty?",
+    "answer": "Most footwear includes a 1-year limited warranty from the date of purchase.",
+    "tags": [
+      "warranty",
+      "defect",
+      "warranty length"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-08-04T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0166",
+    "source": "faq",
+    "title": "How do I claim warranty?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "How do I claim warranty?",
+    "answer": "Submit a warranty claim through your account with photos of the defect and your order number.",
+    "tags": [
+      "warranty",
+      "defect",
+      "claim warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-02-18T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0167",
+    "source": "faq",
+    "title": "Does warranty cover normal wear and tear?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Does warranty cover normal wear and tear?",
+    "answer": "No, warranty only covers manufacturing defects, not damage from normal use or misuse.",
+    "tags": [
+      "warranty",
+      "defect",
+      "wear and tear warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-02-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0168",
+    "source": "faq",
+    "title": "Is the warranty transferable if I bought shoes secondhand?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Is the warranty transferable if I bought shoes secondhand?",
+    "answer": "No, warranty coverage applies only to the original purchaser with valid proof of purchase.",
+    "tags": [
+      "warranty",
+      "defect",
+      "secondhand warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2026-05-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0169",
+    "source": "faq",
+    "title": "What voids my shoe warranty?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "What voids my shoe warranty?",
+    "answer": "Warranty is voided by unauthorized repairs, improper care, or damage from accidents or misuse.",
+    "tags": [
+      "warranty",
+      "defect",
+      "void warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0170",
+    "source": "faq",
+    "title": "Does warranty cover sole separation?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Does warranty cover sole separation?",
+    "answer": "Yes, sole separation due to a manufacturing defect within the warranty period is covered.",
+    "tags": [
+      "warranty",
+      "defect",
+      "sole separation"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0171",
+    "source": "faq",
+    "title": "Can I get a replacement instead of a repair?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Can I get a replacement instead of a repair?",
+    "answer": "Depending on the defect, we may offer a repair, replacement, or refund at our discretion.",
+    "tags": [
+      "warranty",
+      "defect",
+      "warranty replacement"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-09T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0172",
+    "source": "faq",
+    "title": "How do I know if my shoe issue is a defect or normal wear?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "How do I know if my shoe issue is a defect or normal wear?",
+    "answer": "Our support team reviews submitted photos to determine if the issue qualifies as a manufacturing defect.",
+    "tags": [
+      "warranty",
+      "defect",
+      "defect vs wear"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-21T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0173",
+    "source": "faq",
+    "title": "Does the warranty cover color fading?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Does the warranty cover color fading?",
+    "answer": "Minor color fading from normal use is not covered, but significant discoloration from a material defect may be.",
+    "tags": [
+      "warranty",
+      "defect",
+      "color fading warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-12-25T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0174",
+    "source": "faq",
+    "title": "What documentation do I need for a warranty claim?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "What documentation do I need for a warranty claim?",
+    "answer": "You'll need your order number or proof of purchase along with clear photos of the defect.",
+    "tags": [
+      "warranty",
+      "defect",
+      "warranty documentation"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-10-19T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0175",
+    "source": "faq",
+    "title": "How long does a warranty claim take to process?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "How long does a warranty claim take to process?",
+    "answer": "Warranty claims are typically reviewed and resolved within 7–10 business days.",
+    "tags": [
+      "warranty",
+      "defect",
+      "warranty claim time"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-07-07T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0176",
+    "source": "faq",
+    "title": "Are limited edition releases covered under the same warranty?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Are limited edition releases covered under the same warranty?",
+    "answer": "Yes, all footwear purchased through official channels carries the same standard warranty terms.",
+    "tags": [
+      "warranty",
+      "defect",
+      "limited edition warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-08-14T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0177",
+    "source": "faq",
+    "title": "Does warranty cover shoes purchased from third-party retailers?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Does warranty cover shoes purchased from third-party retailers?",
+    "answer": "Warranty coverage may vary for third-party purchases; we recommend contacting the retailer directly for those claims.",
+    "tags": [
+      "warranty",
+      "defect",
+      "third-party warranty"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-08-13T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0178",
+    "source": "faq",
+    "title": "Can warranty claims be made in-store?",
+    "category": "Warranty",
+    "intent": "warranty",
+    "question": "Can warranty claims be made in-store?",
+    "answer": "Yes, warranty claims can be submitted either online or at any physical store location.",
+    "tags": [
+      "warranty",
+      "defect",
+      "in-store warranty claim"
+    ],
+    "related_documents": [
+      "warranty_policy.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2026-04-17T00:00:00Z"
+  }
+]

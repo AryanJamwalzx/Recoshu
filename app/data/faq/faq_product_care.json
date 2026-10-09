@@ -1,0 +1,462 @@
+[
+  {
+    "faq_id": "FAQ0144",
+    "source": "faq",
+    "title": "Can I wash my shoes in a washing machine?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Can I wash my shoes in a washing machine?",
+    "answer": "Most shoes should not be machine washed as it can damage cushioning and adhesives; hand cleaning is recommended.",
+    "tags": [
+      "care",
+      "cleaning",
+      "machine wash shoes"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-02-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0145",
+    "source": "faq",
+    "title": "How should I clean suede shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How should I clean suede shoes?",
+    "answer": "Use a suede brush to remove dirt and a suede eraser for stains; avoid water, which can cause discoloration.",
+    "tags": [
+      "care",
+      "cleaning",
+      "clean suede shoes"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0146",
+    "source": "faq",
+    "title": "How do I remove stains?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I remove stains?",
+    "answer": "Use a mild soap solution and a soft brush, gently scrubbing the stained area before air drying.",
+    "tags": [
+      "care",
+      "cleaning",
+      "remove stains"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-08-04T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0147",
+    "source": "faq",
+    "title": "How should I dry wet shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How should I dry wet shoes?",
+    "answer": "Stuff shoes with paper towels and air dry at room temperature, away from direct heat or sunlight.",
+    "tags": [
+      "care",
+      "cleaning",
+      "dry wet shoes"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-08-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0148",
+    "source": "faq",
+    "title": "How do I clean mesh running shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I clean mesh running shoes?",
+    "answer": "Wipe with a damp cloth and mild detergent, then air dry; avoid submerging mesh uppers in water.",
+    "tags": [
+      "care",
+      "cleaning",
+      "clean mesh shoes"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2025-05-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0149",
+    "source": "faq",
+    "title": "Can I put my shoes in the dryer?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Can I put my shoes in the dryer?",
+    "answer": "No, heat from a dryer can warp soles and damage adhesives; always air dry shoes instead.",
+    "tags": [
+      "care",
+      "cleaning",
+      "dryer shoes warning"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2026-04-10T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0150",
+    "source": "faq",
+    "title": "How do I remove odor from my shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I remove odor from my shoes?",
+    "answer": "Sprinkle baking soda inside the shoes overnight, then shake it out, or use odor-absorbing insoles.",
+    "tags": [
+      "care",
+      "cleaning",
+      "shoe odor removal"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-12T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0151",
+    "source": "faq",
+    "title": "How often should I clean my sneakers?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How often should I clean my sneakers?",
+    "answer": "Light cleaning every 1–2 weeks with regular wear helps maintain appearance and extend shoe life.",
+    "tags": [
+      "care",
+      "cleaning",
+      "cleaning frequency"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-10-27T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0152",
+    "source": "faq",
+    "title": "How do I protect leather shoes from water damage?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I protect leather shoes from water damage?",
+    "answer": "Apply a leather protectant spray before first wear and reapply periodically for water resistance.",
+    "tags": [
+      "care",
+      "cleaning",
+      "leather protectant"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-11-03T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0153",
+    "source": "faq",
+    "title": "What's the best way to store shoes long-term?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "What's the best way to store shoes long-term?",
+    "answer": "Store shoes in a cool, dry place away from direct sunlight, ideally with shoe trees to maintain shape.",
+    "tags": [
+      "care",
+      "cleaning",
+      "shoe storage"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-06-20T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0154",
+    "source": "faq",
+    "title": "Can I use bleach to whiten my sneakers?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Can I use bleach to whiten my sneakers?",
+    "answer": "Diluted bleach can be used carefully on white rubber soles, but avoid contact with mesh or colored materials.",
+    "tags": [
+      "care",
+      "cleaning",
+      "bleach sneakers"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-12-05T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0155",
+    "source": "faq",
+    "title": "How do I clean the outsole of my shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I clean the outsole of my shoes?",
+    "answer": "Use a soft brush with soapy water to scrub built-up dirt from grooves in the outsole.",
+    "tags": [
+      "care",
+      "cleaning",
+      "clean outsole"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-11-01T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0156",
+    "source": "faq",
+    "title": "Should I remove laces before cleaning shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Should I remove laces before cleaning shoes?",
+    "answer": "Yes, removing laces allows for a more thorough clean and prevents color transfer during washing.",
+    "tags": [
+      "care",
+      "cleaning",
+      "remove laces cleaning"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-09-28T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0157",
+    "source": "faq",
+    "title": "How do I maintain knit or Flyknit uppers?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I maintain knit or Flyknit uppers?",
+    "answer": "Spot clean gently with a soft cloth and mild soap; avoid vigorous scrubbing which can damage the knit fibers.",
+    "tags": [
+      "care",
+      "cleaning",
+      "flyknit care"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-10-02T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0158",
+    "source": "faq",
+    "title": "Can I iron out creases in my sneakers?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Can I iron out creases in my sneakers?",
+    "answer": "We don't recommend ironing shoes, as heat can damage foam midsoles and synthetic materials.",
+    "tags": [
+      "care",
+      "cleaning",
+      "iron sneaker creases"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-04-30T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0159",
+    "source": "faq",
+    "title": "How do I clean insoles?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I clean insoles?",
+    "answer": "Remove insoles and hand wash separately with mild soap, then air dry fully before placing back in the shoe.",
+    "tags": [
+      "care",
+      "cleaning",
+      "clean insoles"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2025-11-26T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0160",
+    "source": "faq",
+    "title": "What household products should I avoid using on shoes?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "What household products should I avoid using on shoes?",
+    "answer": "Avoid ammonia-based cleaners, bleach on colored materials, and excessive heat, as these can damage materials and adhesives.",
+    "tags": [
+      "care",
+      "cleaning",
+      "harmful cleaning products"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "medium",
+    "last_updated": "2024-09-17T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0161",
+    "source": "faq",
+    "title": "How do I prevent yellowing on white midsoles?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I prevent yellowing on white midsoles?",
+    "answer": "Keep shoes out of direct sunlight and clean regularly to prevent oxidation that causes yellowing over time.",
+    "tags": [
+      "care",
+      "cleaning",
+      "prevent yellowing midsole"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "low",
+    "last_updated": "2024-07-29T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0162",
+    "source": "faq",
+    "title": "Can I use a washing machine on shoe laces?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "Can I use a washing machine on shoe laces?",
+    "answer": "Yes, laces are generally safe to hand wash or machine wash in a mesh bag on a gentle cycle.",
+    "tags": [
+      "care",
+      "cleaning",
+      "wash shoelaces"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2025-03-11T00:00:00Z"
+  },
+  {
+    "faq_id": "FAQ0163",
+    "source": "faq",
+    "title": "How do I care for shoes after wearing them in rain?",
+    "category": "Product Care",
+    "intent": "product_care",
+    "question": "How do I care for shoes after wearing them in rain?",
+    "answer": "Remove excess moisture with a towel, stuff with paper, and air dry away from direct heat before next use.",
+    "tags": [
+      "care",
+      "cleaning",
+      "rain shoe care"
+    ],
+    "related_documents": [
+      "product_care_guide.pdf"
+    ],
+    "language": "en",
+    "version": "1.0",
+    "audience": "customer",
+    "confidence": "official",
+    "priority": "high",
+    "last_updated": "2024-09-09T00:00:00Z"
+  }
+]
